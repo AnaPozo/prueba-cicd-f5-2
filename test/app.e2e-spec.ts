@@ -8,7 +8,7 @@ import { BeersService } from '../src/beers/beers.service';
 
 describe('AppController (e2e)', () => {
   let app: INestApplication;
-  let beersService: BeersService;
+  let beersService: BeersService ;
 
   beforeEach(async () => {
     const moduleFixture: TestingModule = await Test.createTestingModule({
